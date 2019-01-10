@@ -1,7 +1,5 @@
 """
-Know more, visit my Python tutorial page: https://morvanzhou.github.io/tutorials/
-My Youtube Channel: https://www.youtube.com/user/MorvanZhou
-
+It is highly recommended that you study this script about matplotlib carefully.
 Dependencies:
 tensorflow: 1.1.0
 matplotlib
@@ -11,9 +9,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # fake data
-x = np.linspace(-5, 5, 200)     # x data, shape=(100, 1)
+x = np.linspace(-5, 5, 200)  # x data, shape=(100, 1)
 
 # following are popular activation functions
+# Tensorflow can feed numpy-type data directly
 y_relu = tf.nn.relu(x)
 y_sigmoid = tf.nn.sigmoid(x)
 y_tanh = tf.nn.tanh(x)
